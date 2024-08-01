@@ -1,0 +1,37 @@
+.wrapper{
+
+    .sidebar{
+
+        background-color: #D8E7FC;
+        margin-right: 92%;
+        height: 100vh;
+
+
+        img{
+            margin-left: 39px;
+            margin-top: 30px;
+        }
+    nav{
+        display: grid;
+        margin-left: 6vh;
+        margin-top: 4vh;
+        gap: 15px;
+
+        .trending-icon, 
+        .wallet-icon,
+        .cloth-icon, 
+        .addPerson-icon{
+            transition: 0.3s;
+        }
+
+        .trending-icon:hover, 
+        .wallet-icon:hover,
+        .cloth-icon:hover, 
+        .addPerson-icon:hover{
+            color: #4B46E0;
+            transition: 0.2s;
+        } 
+    }
+
+}
+}
