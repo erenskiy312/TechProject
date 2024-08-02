@@ -18,6 +18,11 @@ const Main = () => {
                     <PersonAddAltIcon className='addPerson-icon'/>
                 </nav>
             </div>
+            <div className='main'>
+
+            <p>Главная страница</p>
+            <p>Добавить нового сотрудника</p>
+            </div>
         </div>
     );
 };
