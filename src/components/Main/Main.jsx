@@ -8,6 +8,7 @@ import PersonAddAltIcon from '@mui/icons-material/PersonAddAlt';
 import Modal from 'react-modal'
 
 const Main = () => {
+    let subtitle
     const [modalIsOpen, setIsOpen] = useState(false)
 
     const openModal = () => {
@@ -17,7 +18,6 @@ const Main = () => {
     const closeModal = () => {
         setIsOpen(false)
     }
-
 
     return (
         <div className='wrapper'>
@@ -37,7 +37,7 @@ const Main = () => {
             </div>
             <Modal
             isOpen={modalIsOpen}
-            onReq
+            onRequestClose={closeModal}
             >
 
             </Modal>
